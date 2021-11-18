@@ -1,0 +1,6 @@
+[submodule "kafka-python-feedstock" ]
+    path = include/foo
+    branch = master
+	url = ../kafka-python-feedstock
+
+

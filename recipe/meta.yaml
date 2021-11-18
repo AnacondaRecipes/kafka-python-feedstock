@@ -21,6 +21,9 @@ requirements:
     - python
 
 test:
+  # python 3.10 noarch bug workaround
+  require:
+    - python <3.10
   imports:
     - kafka
     - kafka.consumer
